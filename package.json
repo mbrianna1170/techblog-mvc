@@ -1,0 +1,25 @@
+{
+  "name": "techblog-mvc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbrianna1170/techblog-mvc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbrianna1170/techblog-mvc/issues"
+  },
+  "homepage": "https://github.com/mbrianna1170/techblog-mvc#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  }
+}
