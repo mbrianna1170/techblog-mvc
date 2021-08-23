@@ -5,14 +5,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Tech Blog</title>
-  <link rel="stylesheet" href="../../public/stylesheets/style.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
   <div class="wrapper">
-    <header>
+    <header class="header">
+      <nav>
+        <a href="/login" class="login">login</a>
+        <button id="logout" class="btn-no-style">logout</button>
+      </nav>
       <h1>
-        <a href="/">The Tech Blog</a>
+        <a href="/" class="tech-blog">The Tech Blog</a>
       </h1>
     </header>
     <main>
@@ -22,7 +26,7 @@
       Thanks for visiting!
     </footer>
   </div>
-
+<script src="/javascript/logout.js"></script>
 </body>
 
 </html>
