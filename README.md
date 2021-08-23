@@ -7,6 +7,8 @@ This full-stack web application uses JavaScript backend frameworks and Handlebar
 ## Screenshot:
 <img src="./assets\images\Screenshot 2021-08-22 224350.png">
 
+## Deployed to Heroku: https://calm-dawn-81453.herokuapp.com/
+
 ## Usage:
 npm install > npm run seeds > npm start
 
