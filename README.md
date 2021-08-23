@@ -2,7 +2,7 @@
 
 ## Description: 
 
-This full-stack web application uses JavaScript backend frameworks and Handlebars.js to create a tech blog website. Users can sign-up or create a secured account that is password hashed with bcrypt. Once logged in users can post links to blogs and comment on other posts. 
+This full-stack web application uses JavaScript backend frameworks and Handlebars.js to create a simple blog website. Users can sign-up or create a secured account that is password hashed with bcrypt. Once logged in users can post links to blogs and comment on other posts. 
 
 ## Screenshot:
 <img src="./assets\images\Screenshot 2021-08-22 224350.png">
