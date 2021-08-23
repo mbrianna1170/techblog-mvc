@@ -5,6 +5,7 @@ const { Post, User, Comment } = require("../models");
 
 // this shows all the blog posts on the homepage
 router.get("/", (req, res) => {
+  console.log(req.session);
   Post.findAll({
     attributes: ["id", "post_url", "title", "created_at"],
     include: [
@@ -35,7 +36,12 @@ router.get("/", (req, res) => {
 
 // this will take the user to the login and sign up page
 router.get('/login', (req, res) => {
-    res.render('login');
-})
+  if (req.session.loggedIn) {
+    res.redirect('/');
+    return;
+  }
+
+  res.render('login');
+});
 
 module.exports = router;
