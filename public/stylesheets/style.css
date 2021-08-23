@@ -1,8 +1,12 @@
+body {
+  background: #ccc;
+}
 
 .header {
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/677/302/small/abstract-technology-banner-background.jpg);
+  opacity: 0.75;
   padding: 30px;
   text-align: center;
-  background: #0f5570;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 20px;
 }
@@ -17,12 +21,28 @@ a.login {
   text-decoration: none;
 }
 
+.title {
+  font-size: larger;
+  line-height: 145%;
+  /* align-content: space-between; */
+}
+
+/* main {
+  background: #ccc;
+} */
+
 form > div {
   margin-bottom: 2%;
 }
 
 form label {
   display: block;
+}
+
+form.login-form,
+form.signup-form {
+  text-align: center;
+  padding: 2%;
 }
 
 .container {
@@ -71,5 +91,7 @@ footer {
   display: flex;
   justify-content: center;
   padding: 1%;
+  background-color: rgb(9, 35, 112);
+  color: white;
   font-size: 110%;
 }
